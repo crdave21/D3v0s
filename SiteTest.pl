@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-#Code to check various sites and obtain a report of those available
+#Code to check various sites and obtain a report of those available 
 
 use strict;
 use warnings;
