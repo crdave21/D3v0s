@@ -1,5 +1,5 @@
 #! /usr/bin/perl  
-
+#A script where you can get IPs from many URLs
 #open (sitio,"sitios.txt");
 
 my @url = ();
